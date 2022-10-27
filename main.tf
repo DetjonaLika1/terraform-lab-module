@@ -1,7 +1,7 @@
 
 module "user-Detjona-module" {
-  source  = "app.terraform.io/devOpsKursi/user-milot-module/iam"
-  version = "2.0.2"
+  source  = "app.terraform.io/devOpsKursi/user-Detjona-module/iam"
+  version = "1.0.1"
   # insert required variables here
   user_name   = "Detjona-user"
   policy_name = "Detjona-policy"
